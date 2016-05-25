@@ -1,0 +1,96 @@
+/* Стили для страницы входа в аккаунт/регистрации пользователя */
+
+@font-face {
+    font-family: Blemished;
+    src: url(fonts/Blemished.ttf);
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+input[type="text"], input[type="password"] {
+	width:190px;
+	height:20px;
+	padding-left: 10px;
+}
+
+body {
+	background: url(images/background.jpg) no-repeat;
+	background-size: cover;
+	padding-top:5%;
+}  
+
+.note {
+	width:500px;
+	height:300px;
+	margin:auto;
+	text-align:center;
+	background:RGBA(255,255,255, 0.4);
+	padding-top:5%;
+	border-radius: 30px;
+}
+
+.note h1 {
+	margin-bottom: 30px;
+	font-size:60px;
+	font-family:Blemished;
+	color:RGB(24,54,84);
+}
+
+.sign_in {
+	margin-bottom: 10px;
+}
+
+.sign_in input[id="sign"] {
+	display:block;
+	margin:auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border:none;
+	width:410px;
+	background:RGBA(107,126,145, 0.6);
+	padding:5px;
+}
+
+.registration {
+	display:none;
+	margin-bottom: 10px;
+}
+
+.registration input {
+	margin:3px;
+	padding-left: 10px;
+}
+
+.registration input[id="reg"] {
+	width:416px;
+	background:RGBA(107,126,145, 0.6);
+	border:none;
+	padding:5px;
+	margin-top: 10px;
+	margin-left:42px;
+}
+
+.sign_buttons {
+	font-size: 15px;
+}
+
+.sign_buttons span {
+	display:none;
+	margin:auto;
+	margin-bottom: 10px;
+	border:none;
+	width:406px;
+	background:RGBA(107,126,145, 0.6);
+	padding:5px;
+}
+
+.sign_buttons .new_account {
+	width:402px;
+	margin:auto;
+	background:RGBA(107,126,145, 0.6);
+	padding:5px;
+	margin-bottom: 10px;
+}	

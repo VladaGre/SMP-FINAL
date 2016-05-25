@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>\Memotes/</title>
+
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles_main.css"/>
+
+	<link type="text/css" rel="stylesheet" href="enjoyhint/enjoyhint.css" />
+	<script type="text/javascript" src="enjoyhint/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="enjoyhint/enjoyhint.min.js"></script>
+
+</head>
+<body>
+
+	<section class="notes">
+		<header>	
+			<h1>\memotes/(<span id="name"></span>)<h1>
+			<div>
+				<input id="new-title" type="text" placeholder="Заголовок новой заметки" required/>
+				<textarea id="new-text" placeholder="Текст новой заметки"  disabled></textarea>
+			</div>
+		</header>
+		<footer id="footer">	
+			<span class="count-point">
+				В распоряжении <span>0</span> заметок
+			</span>
+			<span class="exit" onclick="exit()">
+				quit
+			</span>
+		</footer>
+
+		<section class="main">	
+			<ul class="list-notes">
+			</ul>
+		</section>
+	</section>
+
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
